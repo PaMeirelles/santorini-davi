@@ -1,0 +1,44 @@
+{
+  "at": "2026-11-18T01:11:10.579216+00:00",
+  "pid": 157116,
+  "python": "C:\\Users\\rafae\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "torch": "2.6.0+cu124",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "dataset": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\raven-2.3.9-overnight-2026-11-16",
+  "dataset_manifest_sha256": "244c5076acf3540e5225d7c8c64285b8d38d70e955117e77b33032db4c5a78b9",
+  "scope": "Exact Raven 2.3.9 accepted games and split; four additional input planes only",
+  "comparison_note": "Compare with Raven 2.3.9; comparison with Cypher 3.0 also changes the corpus",
+  "games": 150282,
+  "result_counts": {
+    "N": 143792,
+    "T": 4872,
+    "I": 1618
+  },
+  "input_planes": 35,
+  "train_samples": 7662868,
+  "validation_samples": 1460783,
+  "recipe": {
+    "epochs": 15,
+    "batch_size": 256,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "seed": 42,
+    "initialization": "from scratch",
+    "precision": "float32",
+    "sample_weights": "uniform",
+    "value_loss": "BCEWithLogitsLoss",
+    "policy_loss": "CrossEntropyLoss",
+    "loss_weights": [
+      1,
+      1
+    ]
+  },
+  "sources": {
+    "run.py": "324713664a7f478fdebd3f99c8e5ee90b47e5c0833f82a60163b7d656ba46070",
+    "source\\context.py": "6fea40b26f5ca974a38eda00b7669adf61b13b7856f158031d8b52da065e051e",
+    "source\\network.py": "315385bc60fbde45916be0c6c71fef64d3857253a171a054cbb7d965da6b2cb8",
+    "source\\prepare.py": "0881551098721bbb99f33dbc18e743341e5f0819e039adc2212e7f73b7393eaa",
+    "source\\training.py": "98be4f5609e44f2ff95b738f2f0406ca13164815c924c5029195adbb7f7cf30b"
+  },
+  "artifact": "weights and TorchScript only; no executable or engine promotion"
+}

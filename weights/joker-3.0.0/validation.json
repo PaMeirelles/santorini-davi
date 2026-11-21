@@ -1,0 +1,7 @@
+{
+  "status": "ready; all-god protocol/legal-move preflight passed",
+  "selected_epoch": 3,
+  "checks": 20,
+  "preflight": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\joker-vs-raven-200-2026-11-17\\preflight.json",
+  "match_manifest_sha256": "b8b74d029039a2e5f02597c1b83571eea7d7c9178f3d4095d44eb105e6817e72"
+}

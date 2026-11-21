@@ -1,0 +1,55 @@
+{
+  "status": "prepared; no training started",
+  "input_planes": 35,
+  "phase_planes": "28-30 unchanged",
+  "context_planes": {
+    "31": "active_worker",
+    "32": "movement_origin",
+    "33": "previous_build",
+    "34": "prometheus_prebuilt"
+  },
+  "record_dtype": [
+    [
+      "active_worker",
+      "|i1"
+    ],
+    [
+      "movement_origin",
+      "|i1"
+    ],
+    [
+      "previous_build",
+      "|i1"
+    ],
+    [
+      "prometheus_prebuilt",
+      "|u1"
+    ]
+  ],
+  "absent_square": -1,
+  "source_dataset": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\raven-2.3.9-overnight-2026-11-16",
+  "source_sha256": {
+    "samples.bin": "6fe2dbb7b923a2cf4513641b3b2f3b8683f960374a65cede9142b495ebc4b6a9",
+    "accepted-games.jsonl": "95b910e36e13ebb6880479768c3175b658f88b461a09db813c3dacc1e1fa26d0",
+    "train-indices.npy": "0211bc9da68cc40d078c6c7b2cdce1ea0e6e6fd1422d240bf64c5df337e84407",
+    "validation-indices.npy": "f5d545a2379831370fe3e5e66db39fce8768a157babfe9fd8d5537c8f5db224d",
+    "dataset.json": "fe4341ac7fdf2929f06fa53eb2389209f9223f598f3d3d1252e1f90911228cc6",
+    "split-audit.json": "6a30b878461b7410de8f42a970ad88ab5c68d5ee37e87978231cb4c627c9516c"
+  },
+  "baseline_architecture_sha256": "f6aa2cc8b9e3f3bcaef38ea036d495d942e3b9703aa9f99add19ad94d39bca46",
+  "samples": 9539650,
+  "games": 150282,
+  "context_sha256": "96fc6fb8a99e31dc196cacb44fce5c9e3966cad6139391393318785a8937f226",
+  "nonempty_context_sample_records": {
+    "active_worker": 5124232,
+    "movement_origin": 5124232,
+    "previous_build": 1354130,
+    "prometheus_prebuilt": 317782
+  },
+  "split": {
+    "train_samples": 7662868,
+    "validation_samples": 1460783
+  },
+  "symmetry": "Same rows, original orientations, labels, repetitions and saved splits. Inherited board-only D4 overlap purge is conservative for enriched contexts; no new symmetry-distinct context count claimed.",
+  "preparation_seconds": 42.324650599999586
+}

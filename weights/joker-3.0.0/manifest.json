@@ -1,0 +1,74 @@
+{
+  "name": "Davi 3.0.0 Joker",
+  "selected_epoch": 3,
+  "weights_source": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\raven-context-35-training-2026-11-17\\checkpoints\\epoch-03-weights.pth",
+  "weights_sha256": "fba4012bac27ca99e94919aee756837ee27cbfbc5580edb28279dbf8bb6eca24",
+  "training_run": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\raven-context-35-training-2026-11-17",
+  "training_manifest_sha256": "a7fd902f721a7c09f314059ef711f99fab4f4a0ee1ef71a521a99a209dabecdb",
+  "input_planes": 35,
+  "parameters": 4608646,
+  "architecture_sha256": "315385bc60fbde45916be0c6c71fef64d3857253a171a054cbb7d965da6b2cb8",
+  "torchscript_sha256": "ec4994cff2c30f8c272b0cd50c4738b15e0af9e5a94f8830f51da6ccfd340976",
+  "torchscript_reload_output_check": "passed on 32 actual held-out sample rows",
+  "runtime_source_association": {
+    "source_repository": "C:\\Users\\rafae\\CLionProjects\\santorini2025",
+    "source_commit": "77a3a01db18efae98f69063ed7cf38091fcb2cd9",
+    "status": "source adapter only; not compiled or a playable engine",
+    "source_association": "Historical Raven source association, not a verified archived EXE mapping.",
+    "original_sha256": {
+      "src/board.cpp": "565a49a1d697ee46f72bfefb04b78e50b554d3a0748db781ffe35abacdfe4989",
+      "src/board.h": "a615031e306625d956886a269240ce0e6a914430ca3b7a3bb43e8d7fae7cc45f",
+      "src/constants.h": "03aeb8b2a2b9f43d2fbe138cf0b19af056974448b5c3f5b22a0ed7f854a8ce21",
+      "src/evaluation.h": "ed24ec3e644242c924d56ceb971d789c50d1905d4022598cba81c2f898abb5bb",
+      "src/main.cpp": "0a395e6064833a412d76b1c513735ce65d440f60e03730aa09801d3fd5ffc57a",
+      "src/moves.cpp": "714c50f8e65f8db10471f579f1a0e09a225435470ff9e3f4aed1236ea933c3dc",
+      "src/moves.h": "5df7fc8dc398daa524fcb2f61b3a810c7f7d7a75d6cb68592d92ac8c632d8224",
+      "src/run.h": "55ed632688fe290d0681f709a8b991250a07941034e8ea64d3f8d99c7ce3e953",
+      "src/search.h": "63cf0b62a9fa768d93d1f48abd72098ca1f8028680ab44411164beb5bf90e60a"
+    },
+    "prepared_sha256": {
+      "src/board.cpp": "8854c2773a688d792992794893b8b34f1ed7ec5e239ad572717739ed06d3b68f",
+      "src/board.h": "76aaf7cd3966d0197b62cd77ddc85cc721804074da18cff743921227a045ca2f",
+      "src/constants.h": "03aeb8b2a2b9f43d2fbe138cf0b19af056974448b5c3f5b22a0ed7f854a8ce21",
+      "src/evaluation.h": "22b63dfcd965ec65fb3c92e248ef61a3089452ce6f9623abb591818e0e58659d",
+      "src/main.cpp": "0a395e6064833a412d76b1c513735ce65d440f60e03730aa09801d3fd5ffc57a",
+      "src/moves.cpp": "714c50f8e65f8db10471f579f1a0e09a225435470ff9e3f4aed1236ea933c3dc",
+      "src/moves.h": "5df7fc8dc398daa524fcb2f61b3a810c7f7d7a75d6cb68592d92ac8c632d8224",
+      "src/run.h": "55ed632688fe290d0681f709a8b991250a07941034e8ea64d3f8d99c7ce3e953",
+      "src/search.h": "63cf0b62a9fa768d93d1f48abd72098ca1f8028680ab44411164beb5bf90e60a",
+      "src/context_planes.h": "b3b0cbd261b7a755ae091cc656eeea4f3a0f3db1790b72451c77a0f43438545b"
+    },
+    "changes": [
+      "Expose four context getters",
+      "Record executed Prometheus pre-build square",
+      "Append four planes to evaluator input"
+    ],
+    "unchanged": "Search, action vocabulary, phase transitions and rule decisions."
+  },
+  "changes": "Four input context planes; existing phases, rules and search retained.",
+  "limitations": "Historical source association does not establish identity with archived Raven EXE. Prometheus pre-build phase remains unreachable in inherited source.",
+  "status": "release build; initial protocol/search check passed; all-god preflight pending",
+  "files": {
+    "Davi_3.0.0_Joker.exe": "4907c1b86a8eef91c23fd7959c8f21e8b18e11533ab0a87134764a58ad592a21",
+    "santorini_evaluator.pt": "ec4994cff2c30f8c272b0cd50c4738b15e0af9e5a94f8830f51da6ccfd340976",
+    "santorini_zero_weights.pth": "fba4012bac27ca99e94919aee756837ee27cbfbc5580edb28279dbf8bb6eca24"
+  },
+  "build": {
+    "toolchain": "MSVC 2022 x64 /O2 /MD /std:c++20 /DNDEBUG /permissive-; forced CUDA initialization symbol",
+    "build_command_sha256": "9212dda21816d7508013f81be12571a65f20a712e5b9f3def2fa07601ef64122",
+    "source_sha256": {
+      "board.cpp": "8854c2773a688d792992794893b8b34f1ed7ec5e239ad572717739ed06d3b68f",
+      "board.h": "76aaf7cd3966d0197b62cd77ddc85cc721804074da18cff743921227a045ca2f",
+      "constants.h": "03aeb8b2a2b9f43d2fbe138cf0b19af056974448b5c3f5b22a0ed7f854a8ce21",
+      "context_planes.h": "b3b0cbd261b7a755ae091cc656eeea4f3a0f3db1790b72451c77a0f43438545b",
+      "evaluation.h": "22b63dfcd965ec65fb3c92e248ef61a3089452ce6f9623abb591818e0e58659d",
+      "main.cpp": "0a395e6064833a412d76b1c513735ce65d440f60e03730aa09801d3fd5ffc57a",
+      "moves.cpp": "714c50f8e65f8db10471f579f1a0e09a225435470ff9e3f4aed1236ea933c3dc",
+      "moves.h": "5df7fc8dc398daa524fcb2f61b3a810c7f7d7a75d6cb68592d92ac8c632d8224",
+      "run.h": "55ed632688fe290d0681f709a8b991250a07941034e8ea64d3f8d99c7ce3e953",
+      "search.h": "63cf0b62a9fa768d93d1f48abd72098ca1f8028680ab44411164beb5bf90e60a"
+    },
+    "log": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\joker-3.0.0-2026-11-17\\build.log"
+  },
+  "failed_build_audit": "C:\\Personal assistant\\projects\\santorini-game-engine\\experiments\\joker-3.0.0-2026-11-17\\failed-build-cuda-link"
+}

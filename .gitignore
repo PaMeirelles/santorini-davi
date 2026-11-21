@@ -1,0 +1,10 @@
+# generated data, checkpoints, runs (multi-GB) — see training/paths.py
+data/
+__pycache__/
+*.pyc
+engine/build/
+engine/cmake-build-*/
+.idea/
+.vs/
+running.lock
+STOP
