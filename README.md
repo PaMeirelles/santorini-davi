@@ -14,7 +14,7 @@ released weights and the scripts to install it for play.
 ```
 engine/      C++ engine source (35-plane runtime), CMakeLists.txt, build.cmd
 training/    corpus builder, context planes, network, training, export, holdout eval
-weights/     released networks (Git LFS) — joker-3.0.0/
+weights/     released networks (plain git; ~37 MB per release) — joker-3.0.0/
 play/        install into santoriniMediator, LibTorch/CUDA diagnose tool
 docs/        provenance: original ChatGPT experiment READMEs, manifests, scripts
 ```
